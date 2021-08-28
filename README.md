@@ -1,4 +1,4 @@
-# Native Long List
+# Unity Native Long List
 Fast and simplified NativeList<T> implementation which allows you to store more than 1 GB of data (limitation of native collections)
 
 Based on NativeCustomArray by Jackson Dunstan, http://JacksonDunstan.com/articles/4734
