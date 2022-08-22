@@ -44,7 +44,7 @@ namespace NativeLongList
 			_allocator = allocator;
 
 			// allocate list data
-			_data = AllocatorManager.Allocate<NativeListData<T>>(new AllocatorManager.AllocatorHandle { Value = (int)allocator });
+			_data = AllocatorManager.Allocate<NativeListData<T>>(allocator);
 			_data->Capacity = capacity;
 			_data->Count = 0;
 			
